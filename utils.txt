@@ -1,0 +1,16 @@
+(Sirve mucho para hacer release de profiles cuando no tienes un copado)
+https://github.com/Accenture/sfpowerkit
+----------------------------------------------
+(Sabes en projectos grandes hay problemas cuando se ejecutan muchos tests, que tarda horas o incluso dias...
+Pues hay un patron de diseno del software para hacer que vaya mas rapido)
+
+https://github.com/gitmatheus/Mock-Data-Layer-Pattern
+https://matheus.dev/unit-test-mock-relationships-apex/
+
+tienes una capa que llamas DataAccessLayer que tiene dos constructores uno vacio y otro que acepta un parametro
+
+En el primero ejecuta la SOQL real
+
+Y en el segundo le pasas una instancia Mock del DataAccessLayer
+
+Asi tus tests usan la DataAccessLayerMock instance y no ejecutan la SOQL que es lo que mas tiempo y recursos consume
