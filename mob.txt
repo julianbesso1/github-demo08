@@ -1,0 +1,6 @@
+1 - lograr que se establezca la conexion ni bien inicia el juego para mobile (local)
+2 - buscar la forma de conectarse por wifi
+3 - resolver posibles problemas de resolución
+
+
+4- activar network manager solo si van a jugar 2 players
